@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset=pd.read_csv('F:/UdemyML/Machine Learning A-Z Template Folder/Part 8 - Deep Learning/Section 39 - Artificial Neural Networks (ANN)/Artificial_Neural_Networks/Churn_Modelling.csv')
+dataset=pd.read_csv('Churn_Modelling.csv')
 X=dataset.iloc[:,3:13].values
 y=dataset.iloc[:,13].values
              
